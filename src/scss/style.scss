@@ -1,0 +1,87 @@
+/*@import '../../node_modules/bootstrap/scss/bootstrap.scss';*/
+
+header {
+    background-color: black;
+    nav {
+        z-index: 3;
+        ul {
+            border: solid white 1px;
+            border-left: none;
+            border-right: none;
+
+            li {
+                width: 150px;
+                text-align: center;
+                a {
+                    color: white;
+                    height: 50px;
+                    padding-top: 30px;
+
+                    &:hover {
+                        background-color: rgb(184, 62, 62);
+                        text-decoration: none;
+                        color: white;
+                    } 
+                }
+            }
+        }
+
+        img {
+            margin: 0 40px 0 40px;
+        }
+    }
+
+    #carouselExampleIndicators {
+        img {
+            height: 1080px;
+            filter: brightness(0.2);
+        }
+        
+    }
+
+    #banner-text {
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        color: white;
+        font-size: 60px;
+        text-align: center;
+        z-index: 3;
+
+        a {
+            color: white;
+            background-color: white;
+            font-size: 20px;
+            padding: 20px 20px 20px 20px;
+            border-radius: 30px 30px 30px 30px;
+
+            &:hover {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+
+#section-1 {
+    padding: 50px 100px 50px 100px;
+    background-image: url(../../images/main_bg.jpg);
+
+    #main-1 {
+        background-color: white;
+
+        .separateur {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #our-story-text {
+            width: 500px;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
