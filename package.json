@@ -1,0 +1,23 @@
+{
+  "name": "git_bootstrap_les_chefs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dionation/git_bootstrap_les_chefs.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/dionation/git_bootstrap_les_chefs/issues"
+  },
+  "dependencies": {
+    "popper.js": "~1.14.6",
+    "jquery": "~3.3.1",
+    "bootstrap": "~4.2.1"
+  }
+}
