@@ -72,6 +72,7 @@ header #banner-text a:hover {
 
 #section-1 #main-1 {
   background-color: white;
+  /*DEBUT DES TABS*/
 }
 
 #section-1 #main-1 .separateur {
@@ -80,10 +81,53 @@ header #banner-text a:hover {
   margin-right: auto;
 }
 
+#section-1 #main-1 #separateur-3 {
+  margin-top: 50px;
+  padding-bottom: 57px;
+}
+
 #section-1 #main-1 #our-story-text {
   width: 500px;
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#section-1 #main-1 #div-tab #tab-buttons {
+  border-right: solid #d4d4d4 1px;
+}
+
+#section-1 #main-1 #div-tab #tab-buttons a {
+  background-color: white;
+  color: #d4d4d4;
+  border-bottom: solid #d4d4d4 1px;
+}
+
+#section-1 #main-1 #div-tab #tab-buttons a .active i {
+  color: red;
+  border-right: solid #b83e3e;
+}
+
+#section-1 #main-1 #div-tab .col-6 {
+  padding-top: 15px;
+}
+
+#section-1 #main-1 #div-tab .col-6 hr {
+  margin-top: 50px;
+  height: 1px;
+}
+
+#section-1 #main-1 #div-tab .col-6 img {
+  width: 80px;
+  float: left;
+  border-radius: 50% 50% 50% 50%;
+  margin-right: 15px;
+}
+
+#section-1 #main-1 #div-tab .col-6 span {
+  float: right;
+  margin-top: 28px;
+  margin-left: 10px;
+  width: 50px;
 }
 /*# sourceMappingURL=style.css.map */
