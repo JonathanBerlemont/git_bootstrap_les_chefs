@@ -1,11 +1,10 @@
 /*@import '../../node_modules/bootstrap/scss/bootstrap.scss';*/
 
-$danger: rgb(184, 62, 62);
+$danger: rgb(199, 42, 42);
 $light-gray: rgb(212, 212, 212);
 
 header {
     background-color: black;
-    
     nav {
         z-index: 3;
         ul {
@@ -106,8 +105,11 @@ header {
 
                 a {
                     background-color: white;
-                    color: $light-gray;
+                    color: black;
                     border-bottom: solid $light-gray 1px;
+                    i {
+                        color: $light-gray;
+                    }
                     }
                 .active{
                     i {
@@ -162,4 +164,60 @@ header {
           }
         }
     }
+}
+
+#section-2 {
+    padding: 50px 100px 50px 100px;
+    background-image: url(../../images/main_bg.jpg);
+
+    #main-2 {
+        background-color: white;
+        
+
+        #formulaires {
+            border-radius: 30px;
+            width: 60%;
+            background-image: url(../../images/book_table_bg.jpg);
+            color: white;
+            padding-bottom: 75px;
+        }
+
+        a{
+            display: block;
+            width: 150px;
+            text-align: center;
+            background-color: $danger;
+            color: white;
+            border-radius: 50px;
+            padding: 20px;
+            margin: auto;
+
+            &:hover {
+                text-decoration: none;
+                color: white;
+            }
+        }
+
+        .img-gallery {
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .caption-gallery {
+            color: white;
+            background-color: $danger;
+            text-align: center;
+            height: 35px;
+            border-radius: 5px;
+            font-size: 20px;
+        }
+
+        .text-gallery {
+            margin: auto;
+            width: 70%;
+            margin-top: -35px; 
+        }
+    }
+    
 }

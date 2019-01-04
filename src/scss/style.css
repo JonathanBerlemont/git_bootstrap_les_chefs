@@ -25,7 +25,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  background-color: #b83e3e;
+  background-color: #c72a2a;
   text-decoration: none;
   color: white;
 }
@@ -106,16 +106,20 @@ header #banner-text a:hover {
 
 #section-1 #main-1 #div-tab #tab-buttons a {
   background-color: white;
-  color: #d4d4d4;
+  color: black;
   border-bottom: solid #d4d4d4 1px;
 }
 
+#section-1 #main-1 #div-tab #tab-buttons a i {
+  color: #d4d4d4;
+}
+
 #section-1 #main-1 #div-tab #tab-buttons .active {
-  border-right: solid #b83e3e;
+  border-right: solid #c72a2a;
 }
 
 #section-1 #main-1 #div-tab #tab-buttons .active i {
-  color: #b83e3e;
+  color: #c72a2a;
 }
 
 #section-1 #main-1 #div-tab .col-6 {
@@ -164,5 +168,60 @@ header #banner-text a:hover {
   margin-top: 0;
   border-color: gray;
   width: 50%;
+}
+
+#section-2 {
+  padding: 50px 100px 50px 100px;
+  background-image: url(../../images/main_bg.jpg);
+}
+
+#section-2 #main-2 {
+  background-color: white;
+}
+
+#section-2 #main-2 #formulaires {
+  border-radius: 30px;
+  width: 60%;
+  background-image: url(../../images/book_table_bg.jpg);
+  color: white;
+  padding-bottom: 75px;
+}
+
+#section-2 #main-2 a {
+  display: block;
+  width: 150px;
+  text-align: center;
+  background-color: #c72a2a;
+  color: white;
+  border-radius: 50px;
+  padding: 20px;
+  margin: auto;
+}
+
+#section-2 #main-2 a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+#section-2 #main-2 .img-gallery {
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#section-2 #main-2 .caption-gallery {
+  color: white;
+  background-color: #c72a2a;
+  text-align: center;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#section-2 #main-2 .text-gallery {
+  margin: auto;
+  width: 70%;
+  margin-top: -35px;
 }
 /*# sourceMappingURL=style.css.map */
