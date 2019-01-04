@@ -66,7 +66,6 @@ header #banner-text a:hover {
 }
 
 .dentele-top {
-  background-color: #2c2b2b;
   background-image: url(../../images/bottom_decoration_img.png);
   height: 10px;
   width: 100%;
@@ -187,6 +186,10 @@ header #banner-text a:hover {
   padding-bottom: 75px;
 }
 
+#section-2 #main-2 #know-more {
+  margin-top: 300px;
+}
+
 #section-2 #main-2 a {
   display: block;
   width: 150px;
@@ -214,13 +217,15 @@ header #banner-text a:hover {
   color: white;
   background-color: #c72a2a;
   text-align: center;
-  height: 35px;
+  height: 40px;
   border-radius: 5px;
   font-size: 20px;
 }
 
 #section-2 #main-2 .text-gallery {
-  margin: auto;
+  position: absolute;
+  top: 210;
+  left: 95px;
   width: 70%;
   margin-top: -35px;
 }

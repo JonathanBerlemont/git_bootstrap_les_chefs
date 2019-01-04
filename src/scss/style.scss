@@ -67,7 +67,6 @@ header {
 }
 
 .dentele-top {
-    background-color: rgb(44, 43, 43);
     background-image: url(../../images/bottom_decoration_img.png);
     height: 10px;
     width: 100%;
@@ -182,6 +181,10 @@ header {
             padding-bottom: 75px;
         }
 
+        #know-more {
+            margin-top: 300px;
+        }
+
         a{
             display: block;
             width: 150px;
@@ -208,13 +211,15 @@ header {
             color: white;
             background-color: $danger;
             text-align: center;
-            height: 35px;
+            height: 40px;
             border-radius: 5px;
             font-size: 20px;
         }
 
         .text-gallery {
-            margin: auto;
+            position: absolute;
+            top: 210;
+            left: 95px;
             width: 70%;
             margin-top: -35px; 
         }
