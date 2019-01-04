@@ -65,7 +65,7 @@ header #banner-text a:hover {
   color: white;
 }
 
-.dentele {
+.dentele-top {
   background-color: #2c2b2b;
   background-image: url(../../images/bottom_decoration_img.png);
   height: 10px;
@@ -278,5 +278,53 @@ header #banner-text a:hover {
 #section-4 #contact-div hr {
   border-color: white;
   width: 90%;
+}
+
+footer {
+  background-image: url(../../images/footer_background.jpg);
+}
+
+footer .dentele-bot {
+  background-image: url(../../images/footer_bottom_decoration_img.png);
+  height: 10px;
+}
+
+footer i {
+  font-size: 25px;
+  margin-right: 40px;
+}
+
+footer .instagram-row {
+  width: 455px;
+  margin-bottom: 10px;
+}
+
+footer .instagram-row img {
+  width: 100px;
+}
+
+footer #popular-tags {
+  padding-right: 200px;
+}
+
+footer #popular-tags a {
+  display: block;
+  color: white;
+  background-color: #c72a2a;
+  border-radius: 25px;
+  border: solid white 2px;
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 20px;
+}
+
+footer #popular-tags a:hover {
+  text-decoration: none;
+}
+
+footer #barre-rouge {
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  background-color: #c72a2a;
 }
 /*# sourceMappingURL=style.css.map */
