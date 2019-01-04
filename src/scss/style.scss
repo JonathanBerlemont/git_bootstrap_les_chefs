@@ -227,10 +227,11 @@ header {
 
     .row {
         padding-bottom: 100px;
+        padding-top: 50px;
         img {
             border-radius: 50%;
             border: solid white 3px;
-            height: 180px;
+            height: 200px;
         }
         .media-body {
             border: solid $light-gray 1px;
@@ -252,4 +253,29 @@ header {
         }
     }
     
+}
+
+#section-4 {
+    #contact-div {
+        width: 30%;
+        margin: auto;
+        margin-bottom: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 15px;
+        background-color: $danger;
+        border-radius: 15px;
+        color: white;
+        text-align: center;
+
+        i {
+            font-size: 50px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        hr {
+            border-color: white;
+            width: 90%
+        }
+    }
 }
