@@ -8,16 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dionation/git_bootstrap_les_chefs.git"
+    "url": "https://github.com/JonathanBerlemont/git_bootstrap_les_chefs.git"
   },
   "author": "",
   "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/dionation/git_bootstrap_les_chefs/issues"
-  },
   "dependencies": {
     "popper.js": "~1.14.6",
     "jquery": "~3.3.1",
     "bootstrap": "~4.2.1"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/JonathanBerlemont/git_bootstrap_les_chefs/issues"
   }
 }
