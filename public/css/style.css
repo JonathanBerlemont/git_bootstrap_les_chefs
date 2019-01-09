@@ -16001,6 +16001,10 @@ readers do not read off random characters that represent icons */
   font-family: Courgette, cursive;
 }
 
+body {
+  overflow: auto;
+}
+
 header {
   background-color: black;
 }
@@ -16016,7 +16020,6 @@ header nav ul {
 }
 
 header nav ul li {
-  width: 150px;
   text-align: center;
 }
 
@@ -16058,8 +16061,8 @@ header #banner-text a {
   color: white;
   background-color: white;
   font-size: 20px;
-  padding: 20px 20px 20px 20px;
-  border-radius: 30px 30px 30px 30px;
+  padding: 20px;
+  border-radius: 30px;
 }
 
 header #banner-text a:hover {
@@ -16077,6 +16080,7 @@ header #banner-text a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
 }
 
 #section-1 {
@@ -16123,23 +16127,23 @@ header #banner-text a:hover {
   color: #dc3545;
 }
 
-#section-1 #main-1 #div-tab .col-6 {
+#section-1 #main-1 #div-tab .col-contenu {
   padding-top: 15px;
 }
 
-#section-1 #main-1 #div-tab .col-6 hr {
+#section-1 #main-1 #div-tab .col-contenu hr {
   margin-top: 50px;
   height: 1px;
 }
 
-#section-1 #main-1 #div-tab .col-6 img {
+#section-1 #main-1 #div-tab .col-contenu img {
   width: 80px;
   float: left;
   border-radius: 50% 50% 50% 50%;
   margin-right: 15px;
 }
 
-#section-1 #main-1 #div-tab .col-6 span {
+#section-1 #main-1 #div-tab .col-contenu span {
   float: right;
   margin-top: 28px;
   margin-left: 10px;
